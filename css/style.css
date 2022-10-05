@@ -40,11 +40,10 @@ body{
     transition: all 0.3s linear;
 }
 .navbar-nav li a:hover:before{
-    width:5%;
+    width:8%;
 }
 
 
-}
 
 .navbar-nav li ul{
     justify-content: center;
@@ -57,11 +56,32 @@ body{
     padding-top: 20px;
 
 }
+.feature-box {
+    box-shadow: -10px 10px 20px 0px rgb(0 0 0 / 15%);
+}
 
 
-.features-name{
+.features-name p {
     text-align: center;
     text-transform: uppercase;
-    text-decoration-style: solid;
-    font-size: medium;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.features-name span{
+    margin-top: 10px;
+}
+
+#features
+{
+    justify-content: center;
+    align-items: center;
+      background-size: cover;
+    background-position: center;
+    background-image: url(https://moftak.com/wp-content/themes/moftaksolutions/images/home/services-background.png);
+
+}
+#about {
+    background-image: url(img/about-background.png);
+    background-size: cover;
 }
