@@ -1,3 +1,12 @@
+
+/**************************Meterial icons********************/
+
+.material-icons{
+    vertical-align: middle;
+}
+/**************************Meterial icons********************/
+
+
 body{
     margin: 0;
 }
@@ -49,6 +58,8 @@ body{
     justify-content: center;
 
 }
+/*******************************Slider SECTION Ends*********************************************/
+
 .my-slider{
     width: 100%;
 }
@@ -56,20 +67,27 @@ body{
     padding-top: 20px;
 
 }
+
+/*******************************Slider SECTION Ends*********************************************/
+
+/*******************************Features SECTION Starts*********************************************/
+
+
 .feature-box {
     box-shadow: -10px 10px 20px 0px rgb(0 0 0 / 15%);
 }
 
 
-.features-name p {
+.features-name  {
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 30px;
+    margin: 0;
 
 }
-.features-name span{
-    margin-top: 10px;
+.feature-text-center{
+    margin: 0 auto!important;
 }
 
 #features
@@ -78,10 +96,140 @@ body{
     align-items: center;
       background-size: cover;
     background-position: center;
-    background-image: url(https://moftak.com/wp-content/themes/moftaksolutions/images/home/services-background.png);
+    background-image: url(../img/services-background.png);
 
 }
+#features .box-img{
+    max-width: 100px;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
 #about {
-    background-image: url(img/about-background.png);
+    background-image: url(../img/about-background.png);
     background-size: cover;
+}
+
+/*******************************Features SECTION endS*********************************************/
+
+
+/*******************************ABOUT SECTION STARTS*********************************************/
+
+.feature_head_text,
+.about_head_text,
+.client_head_text,
+.contact_head_text {
+    margin: 0 auto;
+    letter-spacing: 9px;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 30px 10px;
+}
+
+.feature_head_brand{
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+
+.about_head_brand{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.client_head_brand{
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+
+.spacer{
+    padding-top: 75px;
+}
+.about_box{
+    width: 80%;
+    display: inline-block;
+}
+
+.about_heading{
+     color: #fff;
+     text-transform: uppercase;
+     line-height: 20px;
+     font-size: 35px;
+     padding-bottom:5px;
+     font-weight: 200;   
+}
+.about_details{
+      color: #fff;
+     line-height: 20px;
+     text-indent: italics ;
+     padding-top: 10px;
+     font-weight: 200;
+
+}
+
+.about_sub_heading{
+    color: #96ee72;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: bolder;
+
+}
+.about-btn {
+    color: #114f62;
+    background-color: #e1e1e1;
+    border: 2px solid #e1e1e1;
+    font-size: 16px;
+}
+.about-btn:hover{
+    background-color: transparent!important;
+}
+
+/*******************************ABOUT SECTION ends*********************************************/
+
+/*******************************Clients SECTION starts*********************************************/
+
+.client_num{
+    font-size: 225px;
+    font-weight: bold;
+    color: #4da158;
+    text-align: right !important;
+    padding: 0px;
+    margin-top: 27px;
+
+
+}
+.client_years{
+    font-size: 30px;
+     margin-top: 56px;
+    font-weight: 300;
+    line-height: 20%;
+    text-transform: uppercase !important;
+}
+.year-text b{
+    color: #4da158;
+    line-height: 38px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+/*Section 2 in Client*/
+
+.border_1{
+    border-left: 2px solid;
+    color: #333;
+
+}
+.text_project{
+    color: #499c53;
+}
+
+ .main_footer
+{
+    background-image: url(../img/ft-background.png)!important;
+}
+
+.footer_para{
+    color: #fff;
+    padding-top: 10px;
 }
