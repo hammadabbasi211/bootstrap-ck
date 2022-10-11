@@ -33,9 +33,9 @@ body{
 .nav_style {
     background-color: #fff;
 }
-.navbar-nav li a{
+.navbar-nav li a
+{
     color: #333;
-    co
     position: relative;
 }
 .navbar-nav li a:before{
@@ -214,15 +214,37 @@ body{
 
 
 /*Section 2 in Client*/
+.client_data b{
+    font-size: 45px;
+
+}
 
 .border_1{
     border-left: 2px solid;
     color: #333;
 
 }
+
+.border_2{
+    border-left: 2px solid;
+    color: #333;
+}
+.row_1{
+    border-bottom: 2px solid;
+    color: #333;
+}
+
+.row_2{
+    border-bottom: 2px solid;
+    color: #333;
+}
 .text_project{
     color: #499c53;
 }
+/***********************************Section 2 in Client Ends****************************************/
+
+/*********************************** Footer Starts ****************************************/
+
 
  .main_footer
 {
@@ -233,3 +255,6 @@ body{
     color: #fff;
     padding-top: 10px;
 }
+
+
+/*********************************** Footer Ends ****************************************/
