@@ -33,8 +33,7 @@ body{
 .nav_style {
     background-color: #fff;
 }
-.navbar-nav li a
-{
+.navbar-nav li a{
     color: #333;
     position: relative;
 }
@@ -58,7 +57,7 @@ body{
     justify-content: center;
 
 }
-/*******************************Slider SECTION Ends*********************************************/
+/*******************************Slider SECTION Starts*********************************************/
 
 .my-slider{
     width: 100%;
@@ -67,7 +66,19 @@ body{
     padding-top: 20px;
 
 }
-
+.slider_head{
+    text-transform: uppercase;
+    font-weight: 40px;
+    color: #4863A0;
+    margin-top: 10px;
+}
+.slider_para{
+    line-height: 2  5px;
+    color: #827464;
+}
+.slider_head_sec{
+    font-size: 35px;
+}
 /*******************************Slider SECTION Ends*********************************************/
 
 /*******************************Features SECTION Starts*********************************************/
